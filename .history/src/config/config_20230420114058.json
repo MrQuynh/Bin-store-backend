@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "id20628157_binstoremrquynh",
+    "password": "b4*]-gma^4_Dj_|",
+    "database": "id20628157_binstorequynh",
+    "host": "localhost",
+    "dialect": "postgres",
+    "logging": false,
+    "query":{"raw":true},
+    "timezone":"+07:00",
+    "dialectOptions": {
+      "ssl":{
+        "require":true,
+        "rejectUnauthorized":false
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
